@@ -1,0 +1,31 @@
+name: frontend
+description: "A new Flutter project."
+
+# Ngăn package bị xuất bản lên pub.dev (chỉ dùng cho dự án cá nhân).
+publish_to: 'none'
+
+# Phiên bản ứng dụng.
+version: 1.0.0+1
+
+# Môi trường SDK Dart/Flutter.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependencies cho dự án.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8  # Biểu tượng kiểu iOS.
+  http: ^1.2.2             # Thư viện gọi API.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0    # Bộ quy tắc code chuẩn.
+
+flutter:
+  uses-material-design: true
+
+  # Nếu bạn muốn thêm tài nguyên (ảnh, font, v.v.), bật phần assets:
+  # assets:
+  #   - images/icon.png
